@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrect usage of innerHTML with multiple elements
+    document.getElementById("myDiv").innerHTML = "<h1>Hello</h1><p>World</p><br>InvalidTag";
+  </script>
+</body>
+</html>
