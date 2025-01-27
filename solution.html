@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Correct way to add elements using createElement
+    const h1 = document.createElement("h1");
+    h1.textContent = "Hello";
+    const p = document.createElement("p");
+    p.textContent = "World";
+    const br = document.createElement("br");
+    const div = document.getElementById("myDiv");
+    div.appendChild(h1);
+    div.appendChild(p);
+    div.appendChild(br);
+  </script>
+</body>
+</html>
